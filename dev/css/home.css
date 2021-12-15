@@ -1,0 +1,93 @@
+.screen1 {
+  padding: 90px 0 200px; }
+  .screen1 h1 {
+    font-size: 144px;
+    line-height: 100%;
+    color: transparent;
+    background: linear-gradient(to right, #FF3C00, #FF790B);
+    background-clip: text;
+    font-weight: 800; }
+  .screen1 h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 100%; }
+  .screen1 .offers {
+    margin-top: 90px;
+    margin-bottom: 100px; }
+  .screen1 .p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 133%;
+    color: rgba(0, 0, 0, 0.4); }
+  .screen1 .main-btn {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 777px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; }
+
+.offers .flex-row {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden; }
+  .offers .flex-row:not(:last-of-type) {
+    margin-bottom: 60px; }
+  .offers .flex-row .left {
+    width: calc(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden; }
+    .offers .flex-row .left:hover img {
+      transform: scale(1.05); }
+    .offers .flex-row .left img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.2s; }
+  .offers .flex-row .right {
+    width: calc(50%);
+    margin-left: auto;
+    padding: 38px 30px; }
+    .offers .flex-row .right .name {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 80%;
+      color: white; }
+      .offers .flex-row .right .name:hover {
+        text-decoration: underline; }
+    .offers .flex-row .right .info {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.8); }
+      .offers .flex-row .right .info span:not(:last-of-type) {
+        margin-right: 10px; }
+    .offers .flex-row .right p {
+      font-size: 24px;
+      line-height: 133%;
+      color: rgba(255, 255, 255, 0.8);
+      margin: 30px 0 30px; }
+    .offers .flex-row .right .tags {
+      width: calc(100% + 15px);
+      margin-left: -15px; }
+      .offers .flex-row .right .tags a {
+        padding: 7px 15px;
+        border-radius: 20px;
+        font-size: 16px;
+        line-height: 100%;
+        color: white;
+        background: rgba(0, 0, 0, 0.3);
+        margin-left: 15px;
+        margin-top: 15px;
+        transition: 0.2s;
+        display: inline-block; }
+        .offers .flex-row .right .tags a:hover {
+          opacity: 0.5; }
+
+/*# sourceMappingURL=home.css.map */
